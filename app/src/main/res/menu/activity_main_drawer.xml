@@ -6,19 +6,19 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_mass"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/mass"
             android:title="Calculate Mass" />
         <item
             android:id="@+id/nav_vol"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/volume"
             android:title="Calculate Volume" />
         <item
             android:id="@+id/nav_mol"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/mole"
             android:title="Calculate Molarity" />
         <item
             android:id="@+id/nav_dil"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/dilution"
             android:title="Dilution" />
     </group>
 
@@ -26,11 +26,11 @@
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
+                android:icon="?attr/actionModeShareDrawable"
                 android:title="Share" />
             <item
                 android:id="@+id/nav_abt"
-                android:icon="@drawable/ic_menu_send"
+                android:icon="@drawable/about"
                 android:title="About" />
         </menu>
     </item>
