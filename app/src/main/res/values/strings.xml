@@ -5,8 +5,24 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="concunit">
+        <item>femtomolar</item>
+        <item>picomolar</item>
+        <item>nanomolar</item>
+        <item>micromolar</item>
+        <item>millimolar</item>
+        <item>molar</item>
+    </string-array>
+    <string-array name="volunit">
+        <item>microliter</item>
+        <item>milliliter</item>
+        <item>liter</item>
+    </string-array>
+    <string-array name="massunit">
+        <item>micrograms</item>
+        <item>milligrams</item>
+        <item>grams</item>
+        <item>kilograms</item>
+    </string-array>
     <string name="title_activity_main">MainActivity</string>
 </resources>

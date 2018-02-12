@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            Toast.makeText(this, "Under Development! Update app to get most of new features.", Toast.LENGTH_SHORT).show();
             return true;
         }
 
@@ -85,22 +86,18 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_mass) {
             android.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.fragholder, new MassFragment());
-            ft.addToBackStack(null);
             ft.commit();
         } else if (id == R.id.nav_vol) {
             android.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.fragholder, new VolumeFragment());
-            ft.addToBackStack(null);
             ft.commit();
         } else if (id == R.id.nav_mol) {
             android.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.fragholder, new MolarityFragment());
-            ft.addToBackStack(null);
             ft.commit();
         } else if (id == R.id.nav_dil) {
             android.app.FragmentTransaction ft = getFragmentManager().beginTransaction();
             ft.replace(R.id.fragholder, new DilutionFragment());
-            ft.addToBackStack(null);
             ft.commit();
         } else if (id == R.id.nav_share) {
             Intent sendIntent = new Intent();

@@ -23,6 +23,7 @@ public class DilutionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Dilution");
         return inflater.inflate(R.layout.fragment_dilution, container, false);
     }
 

@@ -23,6 +23,7 @@ public class VolumeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Volume");
         return inflater.inflate(R.layout.fragment_volume, container, false);
     }
 

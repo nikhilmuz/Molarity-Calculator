@@ -23,6 +23,7 @@ public class MassFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+        getActivity().setTitle("Mass");
         return inflater.inflate(R.layout.fragment_mass, container, false);
     }
 
