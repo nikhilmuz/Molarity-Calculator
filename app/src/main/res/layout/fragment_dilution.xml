@@ -11,45 +11,58 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Stock concentration" />
+        android:hint="Stock concentration"
+        android:id="@+id/dil_stconc"/>
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:entries="@array/concunit" />
+        android:entries="@array/concunit"
+        android:id="@+id/dil_stconcunit"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Desired concentration" />
+        android:hint="Desired concentration"
+        android:id="@+id/dil_dsconc"/>
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:entries="@array/concunit" />
+        android:entries="@array/concunit"
+        android:id="@+id/dil_dsconcunit"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Desired volume" />
+        android:hint="Desired volume"
+        android:id="@+id/dil_dsvol"/>
 
     <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:entries="@array/volunit" />
+        android:entries="@array/volunit"
+        android:id="@+id/dil_dsvolunit"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Calculate" />
+        android:text="Calculate"
+        android:id="@+id/calc_dil"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Required Volume: " />
 
-    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/dil_res"/>
+
+</LinearLayout>
 </FrameLayout>

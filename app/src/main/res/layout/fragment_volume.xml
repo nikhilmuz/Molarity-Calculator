@@ -12,39 +12,51 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mass" />
+            android:hint="Mass"
+            android:id="@+id/vol_mass"/>
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:entries="@array/massunit" />
+            android:entries="@array/massunit"
+            android:id="@+id/vol_massunit"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Formula Weight (daltons)" />
+            android:hint="Formula Weight (daltons)"
+            android:id="@+id/vol_fwt"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Concentration" />
+            android:hint="Concentration"
+            android:id="@+id/vol_conc"/>
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:entries="@array/concunit" />
+            android:entries="@array/concunit"
+            android:id="@+id/vol_concunit"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calculate" />
+            android:text="Calculate"
+            android:id="@+id/calc_vol"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Volume: " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/vol_res"/>
 
     </LinearLayout>
 

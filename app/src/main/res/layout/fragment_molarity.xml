@@ -12,39 +12,51 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mass" />
+            android:hint="Mass"
+            android:id="@+id/mol_mass"/>
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:entries="@array/massunit" />
+            android:entries="@array/massunit"
+            android:id="@+id/mol_massunit"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Formula Weight (daltons)" />
+            android:hint="Formula Weight (daltons)"
+            android:id="@+id/mol_fwt"/>
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Volume" />
+            android:hint="Volume"
+            android:id="@+id/mol_vol"/>
 
         <Spinner
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:entries="@array/volunit" />
+            android:entries="@array/volunit"
+            android:id="@+id/mol_volunit"/>
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calculate" />
+            android:text="Calculate"
+            android:id="@+id/calc_mol"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Molarity: " />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/mol_res"/>
 
     </LinearLayout>
 
