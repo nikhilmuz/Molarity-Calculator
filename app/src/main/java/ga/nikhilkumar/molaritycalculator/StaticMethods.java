@@ -57,7 +57,7 @@ public class StaticMethods {
         else   {return(Math.round((value)*factor)/factor + " " + unit);}
     }
 
-    private void ClearResult()
+    public static void ClearResult()
     {
         //Mass Activity
         mass_conc="";
@@ -139,8 +139,6 @@ public class StaticMethods {
         else {answer = FormatAnswer(grams,"grams",4);}
         mass_res=answer;
     }
-
-
 
     public static void CalcVolume()
     {

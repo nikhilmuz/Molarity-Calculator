@@ -13,7 +13,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Mass"
-            android:id="@+id/mol_mass"/>
+            android:id="@+id/mol_mass"
+            android:inputType="numberDecimal" />
 
         <Spinner
             android:layout_width="wrap_content"
@@ -26,13 +27,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Formula Weight (daltons)"
-            android:id="@+id/mol_fwt"/>
+            android:id="@+id/mol_fwt"
+            android:inputType="numberDecimal" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Volume"
-            android:id="@+id/mol_vol"/>
+            android:id="@+id/mol_vol"
+            android:inputType="numberDecimal" />
 
         <Spinner
             android:layout_width="wrap_content"
